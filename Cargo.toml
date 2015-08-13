@@ -1,0 +1,10 @@
+[package]
+name    = "foo"
+version = "0.0.0"
+authors = [ "saku@ytti.fi" ]
+
+[[bin]]
+name = "foo"
+
+[dependencies.pnet]
+git = "https://github.com/libpnet/libpnet.git"

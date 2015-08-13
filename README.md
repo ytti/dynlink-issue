@@ -26,7 +26,7 @@ name = "foo"
 git = "https://github.com/libpnet/libpnet.git"
 ```
 
-[ytti@ytti.fi ~/usr/git/dynlink-issue]% cargo buil
+[ytti@ytti.fi ~/usr/git/dynlink-issue]% cargo build
 ```
     Updating git repository `https://github.com/libpnet/libpnet.git`
     Updating registry `https://github.com/rust-lang/crates.io-index`
@@ -52,4 +52,11 @@ git = "https://github.com/libpnet/libpnet.git"
 	/lib64/ld-linux-x86-64.so.2 (0x00007f3f6c26e000)
 	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f3f6ab62000)
 ```
+
+```
+[ytti@ytti.fi ~/usr/git/dynlink-issue]% cargo --version
+cargo 0.5.0-nightly (bfadd9a 2015-08-12)
+[ytti@ytti.fi ~/usr/git/dynlink-issue]% rustc --version
+rustc 1.4.0-nightly (dcdcc6f6b 2015-08-11)
 [ytti@ytti.fi ~/usr/git/dynlink-issue]%
+```
